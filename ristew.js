@@ -1,2 +1,4 @@
-var txt = $("#txt")
-txt.html("hello friend")
+function onload() = {
+	var txt = $("#txt")
+	txt.html("hello friend")
+}
