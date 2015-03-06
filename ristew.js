@@ -1,4 +1,4 @@
-function on_load() = {
+function on_load() {
 	var txt = $("#txt")
 	txt.html("hello friend")
 }
