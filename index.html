@@ -1,20 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<style>
-		html {
-			margin: 0% 20%;
-			background: #aec;
-			font-family: helvetica;
-			border: 1px;
-		}
-		p {
-			margin-top: 5px;
-			padding: 5px;
-			border: 1px solid grey;
-			word-wrap: break-word;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<meta charset="utf-8">
 	<title>jay ess</title>
 </head>
@@ -22,13 +9,12 @@
 <h2>And I Learn</h2>
 <input type="text" id="words">
 <button type="button" onclick="insertThing()">add one</button>
-
+<div id='w1'>
 <p id='base'>
 <b>write things</b>
 </p>
+</div>
 <script src='jquery.js'></script>
-<script>
-	$.getScript("logic.js");
-</script>
+<script src='logic.js'></script>
 </body>
 </html>
