@@ -13,14 +13,21 @@ p {
 .elem {
 	display: inline;
 }
-button.elem {
-	float: right;
-	height: 95%;
-	font-size: 12px;
-}
+
 .elemcontainer {
 	background-color: #add;
 	margin: 3px;
 	border: 1px solid #ccc;
 	width: 90%;
+}
+.dater {
+	color: #555;
+	float: right;
+	margin-left: 5px;
+	background-color: #aec;
+}
+button.elem {
+	float: right;
+	height: 95%;
+	font-size: 12px;
 }
