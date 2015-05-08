@@ -1,3 +1,1 @@
-# ristew.github.io
-pages thing
-[ristew.github.io]
+[The page, of course!](ristew.github.io)
