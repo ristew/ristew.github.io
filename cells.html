@@ -43,8 +43,10 @@ Cell.prototype = Object
 Cell.constructor = Cell();
 
 function draw_cell(cell) {
-    context.fillStyle = cell.color;
-    context.fillRect(cell.x, cell.y, cell.size, cell.size);
+     context.fillStyle = cell.color;
+    //context.fillRect(cell.x, cell.y, cell.size, cell.size);
+     context.arc(cell.x, cell.y, cell.size, 0, 2 * Math.PI, false);
+     context.fill();
 }
 
 function update_cells() {
